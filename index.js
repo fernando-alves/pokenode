@@ -8,8 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-  console.log('Hello World');
-  res.sendStatus(200);
+  res.send('Hello World!');
 });
 
 app.get('/pokedex/:pokemon', (req, res) => {
