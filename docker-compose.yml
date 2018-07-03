@@ -3,3 +3,11 @@ services:
   app:
     build: .
     image: pokenode
+    ports:
+      - 8080:8080
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+  redis:
+    image: redis:alpine
