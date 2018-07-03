@@ -8,7 +8,15 @@ module.exports = {
     fernando: [
       'bulbassaur',
       'articuno'
-    ]
+    ],
+    thomaz: [
+      'gyarados',
+      'dragonair'
+    ],
+    gregorio: [
+      'pikachu',
+      'ratata'
+    ] 
   },
   redis: {
     host: 'localhost',
