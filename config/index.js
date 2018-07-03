@@ -15,7 +15,7 @@ module.exports = {
     ],
     gregorio: [
       'pikachu',
-      'ratata'
+      'arceus'
     ] 
   },
   redis: {
